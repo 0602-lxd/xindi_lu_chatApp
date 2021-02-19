@@ -1,6 +1,6 @@
 # xindi_lu_chatApp
 
-![header](images/logo.png "logo")
+<img src="/public/images/logo.png" alt="Logo" width="400">
 
 ## Catchat App
 Hello, everyone! there is a cute chat app View the live link [here]().
