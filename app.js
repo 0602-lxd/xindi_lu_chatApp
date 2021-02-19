@@ -41,7 +41,7 @@ messenger.on('connection', (socket) => {
     socket.on('chat_message', function(msg) {
         console.log(msg);
         console.log('Send data to the client method：message');
-        socket.broadcast.emit('message', { id: `${socket.id}`,username: `${msg.username}`, name: `${msg.name}`, message: `${msg.message}`, time: `${msg.time}` });
+        //socket.broadcast.emit('message', { id: `${socket.id}`,username: `${msg.username}`, name: `${msg.name}`, message: `${msg.message}`, time: `${msg.time}` });
         socket.emit('message', { id: `${msg.id}`,username: `${msg.username}`, name: `${msg.name}`, message: `${msg.message}`, time: `${msg.time}` });
     });
     // Exit the room prompt
