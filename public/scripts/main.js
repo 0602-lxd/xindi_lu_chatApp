@@ -86,7 +86,7 @@ import ChatMessage from "./components/TheMessageComponent.js"
               
                     socket.emit('chat_message', {id:this.socketID,message: this.message,name:GetQueryString("username"), username: this.username==''?GetQueryString("username"):this.username,time:time()  });
                     this.message = "";
-                    this.username = "";
+                    
                     setTimeout(function () {
                         var scrollTarget = document.querySelector('.mainbox');
                         // scrollTarget.scrollTop = scrollTarget.scrollHeight;
