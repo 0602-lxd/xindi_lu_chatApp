@@ -1,6 +1,6 @@
 # xindi_lu_chatApp
 
-<img src="/public/images/logo.svg" alt="Logo" width="400">
+<img src="/public/images/logo.png" alt="Logo" width="400">
 
 ## Catchat App
 Hello, everyone! there is a cute chat app View the live link [here]().
